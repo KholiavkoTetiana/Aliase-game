@@ -1,0 +1,41 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 55%;
+    height: auto;
+}
+
+
+.player {
+    position: absolute;
+    right: 36%;
+    top: 13%;
+    width: 20px;
+    height: 20px;
+}
+
+.separator {
+    border: none;
+    height: 2px;
+    background-color: #979595;
+    margin: 10px 0;
+}
+
+
+.background-img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(5%);
+    max-width: 50%;
+    height: auto;
+}

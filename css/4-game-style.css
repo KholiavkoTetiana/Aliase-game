@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.left-container {
+    width: 50%;
+    padding: 20px;
+}
+
+#active-team {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.action-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #45474a;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.action-btn:hover {
+    background-color: #232629;
+    transform: scale(1.05);
+}
+
+.word-display-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 120px auto 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #401717;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.word-display-btn:hover {
+    background-color: #100505;
+}
+
+.buttons-container {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-top: 2px solid #ddd;
+
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.score {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.guess-btn, .skip-btn {
+    font-size: 25px;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    box-shadow: 0px 4px 8px rgb(39, 34, 34);
+
+}
+
+.guess-btn {
+    background-color: #090b09;
+    color: white;
+
+}
+
+.guess-btn:hover {
+    background-color: #a81616;
+}
+
+.skip-btn {
+    background-color: #831d1d;
+    color: white;
+    margin-right: 20px;
+}
+
+.skip-btn:hover {
+    background-color: #ac1818;
+}
+
+
+.last-word{
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    box-shadow: 0px 2px 4px rgb(39, 34, 34);
+    display: none;
+
+}
+
+
