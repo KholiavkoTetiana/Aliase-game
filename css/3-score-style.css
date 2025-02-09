@@ -14,7 +14,7 @@ body {
 
 .top-container {
     position: absolute;
-    justify-content: space-between; /* Простір між кнопками */
+    justify-content: space-between; 
     top: 0;
     left: 0;
     width: 50%;
@@ -89,7 +89,7 @@ h3{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 55%; /* На всю ширину лівої половини */
+    width: 55%; 
     font-size: 30px;
     background-color: #501212;
     color: white;
@@ -103,15 +103,15 @@ h3{
 
 #team-to-play-div {
     display: flex;
-    flex-direction: column; /* Елементи всередині "team-to-play-div" йдуть в стовпчик */
+    flex-direction: column; 
     margin-top: 10px;
-    max-width: 50%; /* відступ від команди до кнопки */
+    max-width: 50%; 
 }
 
 .team-item {
     display: flex;
-    justify-content: space-between; /* Розтягує елементи між краями */
-    align-items: center; /* Вирівнювання по лівому краю */
+    justify-content: space-between;
+    align-items: center; 
     width: 40%;
     padding: 5px 80px;
     margin-bottom: 5px;
