@@ -8,7 +8,9 @@ module.exports = merge(common, {
   plugins: [
     new HtmlWebpackPlugin({
       template: './1-start-frame.html',
-    }),
+      filename: 'index.html', // Змінює назву файлу на index.html
+      }),
+
     new CopyPlugin({
       patterns: [
         { from: 'img', to: 'img' },
